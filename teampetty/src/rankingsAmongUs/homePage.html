@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Rankings Among Us</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="homePageStyle.css">
     <script type="text/javascript" src="homePage.js"></script>
 </head>
 <body>
@@ -22,8 +22,35 @@
             <input type="text" name="" id="player9" placeholder="Player 9" >
             <input type="text" name="" id="player10" placeholder="Player 10" >
             <br><br>
-            <a onclick="jsfunction()" href="session.html" style="color: black; font-size: 15;">Start Session</a>
+            <a onclick="startSession()" href="session.html" style="color: black; font-size: 15;">Start Session</a>
         </form>
+        <script>
+            function startSession(){
+                var player1 = new Player(document.getElementById(player1));
+                var player2 = new Player(document.getElementById(player2));
+                var player3 = new Player(document.getElementById(player3));
+                var player4 = new Player(document.getElementById(player4));
+                var player5 = new Player(document.getElementById(player5));
+                var player6 = new Player(document.getElementById(player6));
+                var player7 = new Player(document.getElementById(player7));
+                var player8 = new Player(document.getElementById(player8));
+                var player9 = new Player(document.getElementById(player9));
+                var player10 = new Player(document.getElementById(player10));
+                createTable();
+            };
+
+            class Player{
+                impostor = false;
+
+                constructor(name) {
+                    this.name = name;
+                }
+
+                getName = () => {
+                    return this.name;
+                };
+            }
+        </script>
     </div>
 </body>
 </html>
