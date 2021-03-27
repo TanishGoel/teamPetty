@@ -1,23 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Player from './components/Scoreboard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>
+        SCOREBOARD
+      </h2>
+      <div>
+        <Player name="Blue"
+              title="fastest to die"/>
+
+<Player name="Red"
+              title="absolutely shit"/>
+
+<Player name="Black"
+             
+              title="Way too good at killing"/>
+
+<Player name="Black"
+              title="Way too good at killing"/>
+
+<Player name="Black"
+              
+              title="Way too good at killing"/>
+              <Player name="Black"
+              
+              title="Way too good at killing"/>
+              <Player name="Black"
+              
+              title="Way too good at killing"/>
+              <Player name="Black"
+              
+              title="Way too good at killing"/>
+              <Player name="Black"
+           
+              title="Way too good at killing"/>
+              <Player name="White"
+             
+              title="absolute angel, wouldn't hurt a fly"/>
+              
+      </div>
     </div>
   );
 }

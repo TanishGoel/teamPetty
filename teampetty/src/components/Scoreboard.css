@@ -1,0 +1,32 @@
+.playerScore {
+  width: 500px;
+  border-radius: 10px;
+  border: 4px solid white;
+  background-color: #c7c9cfa2;
+  margin: auto;
+}
+
+.name {
+  width: 120px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.playerScore-info {
+  height: 20px;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.updates {
+  justify-content: center;
+  text-align: left;
+  margin-right: auto;
+}
+
+.player {
+  display: flex;
+  padding-right: 200px;
+}
