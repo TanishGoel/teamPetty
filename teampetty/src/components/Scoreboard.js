@@ -12,10 +12,6 @@ function Player(props) {
     setImpostor(!impostor);
   } 
 
-  const WinBoxClicked = () => {
-    
-  }
-
   const Win = () => {
     setWin(!win);
     if (!win) {

@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://wallpaperaccess.com/full/4526044.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: auto;
+    height: 280px;
+    background: #A9A9A9;
+    border-radius: 5%;
+    color: #fff;
+    margin-top: 25%;
+    margin-left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+.icon{
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.logo h1{
+    font-family:'Arial Narrow';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    font-size: 23;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 10px;
+    position: relative;
+}
+input[type="text"]{
+    background-color:rgb(247, 247, 247);
+    text-decoration: underline, gray;
+    border: 5px;
+    margin: 2px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-emphasis-color: #000;
+    
+}

@@ -1,48 +1,50 @@
-import './App.css';
-import React from 'react';
-import Player from './components/Scoreboard';
+
+import './homePageStyle.css';
+import amongus from './rankingsAmongUs/images/amongus.png';
+import * as React from 'react';
+import StartSession from './session';
+import {BrowserRouter as Router, NavLink, Switch, Route} from 'react-router-dom';
 
 function App() {
+
+
   return (
     <div className="App">
-      <h2>
-        SCOREBOARD
-      </h2>
-      <div>
-        <Player name="Blue"
-              title="fastest to die"/>
+    <div>
+               
+        <title>Rankings Among Us</title>
+        <link rel="stylesheet" href="homePageStyle.css" />
+        <div className="logo">
+          <img src={amongus} className="icon" />
+          <br />
+          <h1>Enter Players: </h1>
+          <form id="playerName" style={{textAlign: 'center'}}>
+            <input type="text" name id="player1" placeholder="Player 1" required />
+            <input type="text" name id="player2" placeholder="Player 2" required />
+            <input type="text" name id="player3" placeholder="Player 3" required />
+            <input type="text" name id="player4" placeholder="Player 4" required />
+            <input type="text" name id="player5" placeholder="Player 5" />
+            <input type="text" name id="player6" placeholder="Player 6" />
+            <input type="text" name id="player7" placeholder="Player 7" />
+            <input type="text" name id="player8" placeholder="Player 8" />
+            <input type="text" name id="player9" placeholder="Player 9" />
+            <input type="text" name id="player10" placeholder="Player 10" />
+            <br /><br />
+            <div>
+            <Router>
+              <NavLink to="/session" className="btn btn-primary"><b>Let's Play!</b></NavLink>
 
-<Player name="Red"
-              title="absolutely shit"/>
-
-<Player name="Black"
-             
-              title="Way too good at killing"/>
-
-<Player name="Black"
-              title="Way too good at killing"/>
-
-<Player name="Black"
-              
-              title="Way too good at killing"/>
-              <Player name="Black"
-              
-              title="Way too good at killing"/>
-              <Player name="Black"
-              
-              title="Way too good at killing"/>
-              <Player name="Black"
-              
-              title="Way too good at killing"/>
-              <Player name="Black"
-           
-              title="Way too good at killing"/>
-              <Player name="White"
-             
-              title="absolute angel, wouldn't hurt a fly"/>
-              
+              <Switch>
+                <Route exact path="/session" component={StartSession} />
+              </Switch>
+              </Router>
+         </div>
+          </form>
+          
+        </div>
+        
       </div>
-    </div>
+      </div>
   );
 }
 
