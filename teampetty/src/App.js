@@ -1,6 +1,6 @@
 
 import './homePageStyle.css';
-import amongus from './rankingsAmongUs/images/amongus.png';
+import amongus from './images/amongus.png';
 import * as React from 'react';
 import StartSession from './session';
 import {BrowserRouter as Router, NavLink, Switch, Route} from 'react-router-dom';
