@@ -2,6 +2,8 @@
 
 **teamPetty** came from the need to record histories of fun casual games such as **Among Us** in order to keep track of memorable games and maintain bragging rights. Some could argue that the game developers *should* have made these functionalities available in the first place but we decided to just make it for them :)
 
+<img width="1201" alt="ichelloworldpic1" src="https://user-images.githubusercontent.com/66782598/112749667-5d00ea80-8ff6-11eb-99d8-a1b4572d7dba.png">
+
 ## How to use
 1. Download the respository.
 2. Open the terminal. 
@@ -31,5 +33,5 @@ Basically everything you see today has been learned in the past 24hours.
 - Tanish Goel (MEng Computing (AI+ML) 1st Year)
 - Nurdayana Alia binti Muhd Faisal (BEng Computing 1st Year)
 - Lee Wan Sze (BEng Computing 1st Year)
-- Jacqueline Lee (BEng Computing 1st Year)
+- Jacqueline Lee (MEng Computing (AI+ML) 1st Year)
 - Zhang Yufeng (BEng Computing 1st Year)
