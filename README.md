@@ -9,15 +9,27 @@
 4. Type `npm start`
 5. Enjoy!
 
+## How we built it
+We made use of Node.js, React, HTML and CSS to build a simple web app.
+
+## Challenges we ran into
+We were all very new to web app development (and hackathons in general) so it was quite a struggle.
+
+## Accomplishments that we're proud of
+It's semi-functional.
+
+## What we learned
+Basically everything you see today has been learned in the past 24hours.
+
 ## Future Extensions
 1. Expand the webapp for other games such as Skribbl.io and Covidopoly.
 2. Allow users to award titles to each other after each game.
 
 
-## Proudly made by:
+### Proudly made by:
 
-Tanish Goel (tg1120) (BEng Computing 1st Year)
-Nurdayana Alia binti Muhd Faisal (dam20) (BEng Computing 1st Year)
-Lee Wan Sze (BEng Computing 1st Year)
-Jacqueline Lee (BEng Computing 1st Year)
-Zhang Yufeng (yz10519) (BEng Computing 1st Year)
+- Tanish Goel (MEng Computing (AI+ML) 1st Year)
+- Nurdayana Alia binti Muhd Faisal (BEng Computing 1st Year)
+- Lee Wan Sze (BEng Computing 1st Year)
+- Jacqueline Lee (BEng Computing 1st Year)
+- Zhang Yufeng (BEng Computing 1st Year)
