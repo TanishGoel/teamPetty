@@ -1,0 +1,56 @@
+
+<html>
+<head>
+    <title>Rankings Among Us</title>
+    <link rel="stylesheet" href="homePageStyle.css">
+    <script type="text/javascript" src="homePage.js"></script>
+</head>
+<body>
+    <div class="logo">
+        <img src="images/amongus.png" class="icon">
+        <br>
+        <h1>Enter Players: </h1>
+        <form id="playerName" style="text-align: center;">
+            <input type="text" name="" id="player1" placeholder="Player 1" required >
+            <input type="text" name="" id="player2" placeholder="Player 2" required >
+            <input type="text" name="" id="player3" placeholder="Player 3" required >
+            <input type="text" name="" id="player4" placeholder="Player 4" required >
+            <input type="text" name="" id="player5" placeholder="Player 5" >
+            <input type="text" name="" id="player6" placeholder="Player 6" >
+            <input type="text" name="" id="player7" placeholder="Player 7" >
+            <input type="text" name="" id="player8" placeholder="Player 8" >
+            <input type="text" name="" id="player9" placeholder="Player 9" >
+            <input type="text" name="" id="player10" placeholder="Player 10" >
+            <br><br>
+            <a onclick="startSession()" href="session.html" style="color: black; font-size: 15;">Start Session</a>
+        </form>
+        <script>
+            function startSession(){
+                var player1 = new Player(document.getElementById(player1));
+                var player2 = new Player(document.getElementById(player2));
+                var player3 = new Player(document.getElementById(player3));
+                var player4 = new Player(document.getElementById(player4));
+                var player5 = new Player(document.getElementById(player5));
+                var player6 = new Player(document.getElementById(player6));
+                var player7 = new Player(document.getElementById(player7));
+                var player8 = new Player(document.getElementById(player8));
+                var player9 = new Player(document.getElementById(player9));
+                var player10 = new Player(document.getElementById(player10));
+                createTable();
+            };
+
+            class Player{
+                impostor = false;
+
+                constructor(name) {
+                    this.name = name;
+                }
+
+                getName = () => {
+                    return this.name;
+                };
+            }
+        </script>
+    </div>
+</body>
+</html>
