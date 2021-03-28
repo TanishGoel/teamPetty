@@ -1,4 +1,4 @@
-### teamPetty
+# teamPetty
 
 **teamPetty** came from the need to record histories of fun casual games such as **Among Us** in order to keep track of memorable games and maintain bragging rights. Some could argue that the game developers *should* have made these functionalities available in the first place but we decided to just make it for them :)
 
@@ -14,7 +14,7 @@
 2. Allow users to award titles to each other after each game.
 
 
-# Proudly made by:
+## Proudly made by:
 
 Tanish Goel (tg1120) (BEng Computing 1st Year)
 Nurdayana Alia binti Muhd Faisal (dam20) (BEng Computing 1st Year)
